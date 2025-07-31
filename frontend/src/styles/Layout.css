@@ -1,0 +1,48 @@
+:root {
+  --color-primary: #c62828;       /* Deep red */
+  --color-secondary: #ffffff;     /* White */
+  --color-accent: #e65100;        /* Orange accent */
+  --color-text: #121212;          /* Dark text */
+}
+
+/* Layout base */
+.app-container {
+  min-height: 100vh;
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  display: flex;
+}
+
+
+/* Main content wrapper */
+.main-content {
+  margin-left: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease;
+}
+
+/* Page content section */
+.page-content {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  overflow-y: auto;
+  height: calc(100vh - 60px); /* Assuming Topbar height is 60px */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Responsive layout for desktop */
+@media (min-width: 768px) {
+  .sidebar {
+    transform: translateX(0);
+    position: relative;
+  }
+
+  .sidebar-overlay {
+    display: none;
+  }
+
+  
+}
+

@@ -1,0 +1,65 @@
+.fuel-container{
+  padding: 1rem;
+  background-color: #1e1e2f; /* dark background */
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fuel-log-card-parent{
+background-color: #1e1e2f !important; /* dark background */
+}
+.fuel-log-card{
+    padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #2c2c3e; /* card background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.fuel-log-title {
+  color: #4da6ff; /* blue accent */
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.fuel-log-table{
+    border: 1px solid #4da6ff !important;
+}
+#comments,
+#images,
+textarea.form-control,
+input.form-control {
+  background-color: #3a3a4f;
+  color: #ffffff;
+  border: 1px solid #4da6ff;
+    caret-color: white;
+
+}
+.fuel-log-buttons  {
+  background-color: #4da6ff !important;
+  color: whitesmoke !important;
+  border: none;
+}
+
+
+.fuel-container .card,
+.fuel-container .card-body,
+
+
+
+.fuel-container th,
+.fuel-container td {
+  color: #ffffff !important;
+  background-color: #2a2a3b !important; /* Optional: give forms/tables a dark background */
+}
+
+#comments::value {
+  color: #b0b0b0;
+}
+
+#images,
+textarea.form-control,
+input.form-control:active {
+    background: #3a3a4f !important;
+}
+input.form-control:focus,
+textarea.form-control:focus {
+    background: #3a3a4f !important;
+}

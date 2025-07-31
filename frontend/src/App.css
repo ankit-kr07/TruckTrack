@@ -1,0 +1,10 @@
+:root {
+  --color-black: #121212;
+  --color-orange: #ff6f00; /* bold, modern orange */
+  --color-white: #ffffff;
+
+  --bg-main: var(--color-orange);
+  --text-main: var(--color-black);
+  --accent: var(--color-black);
+  --bg-secondary: var(--color-white);
+}

@@ -1,0 +1,82 @@
+/* TruckManagement.css - Dark Blue Themed */
+
+.truck-management-container {
+  padding: 1rem;
+  background-color: #1e1e2f;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.truck-management-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #2c2c3e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.truck-management-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #4da6ff; /* blue accent */
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input.form-control,
+select.form-control {
+  background-color: #3a3a4f;
+  color: #ffffff;
+  border: 1px solid #4da6ff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+input.form-control::placeholder {
+  color: #b0b0b0;
+}
+
+.truck-management-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background-color: #4da6ff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.truck-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2f2f44;
+  color: #ffffff;
+}
+
+.truck-table th,
+.truck-table td {
+  border: 1px solid #4da6ff;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.truck-table th {
+  background-color: #1e1e2f;
+}
+
+.truck-table tr:nth-child(even) {
+  background-color: #3a3a52;
+}
